@@ -29,7 +29,7 @@ void main(void) {
     SSD1306_Clear();       // Limpia pantalla
 
     SSD1306_SetCursor(0, 0);
-    SSD1306_PrintString("Hola, PIC16F887!");
+    SSD1306_PrintString("Prueba");
     
     while (1);
 }
